@@ -14,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, 'home'])->name('home');
 
 Route::group(['prefix' => 'generate', 'as' => 'generate.'], function () {
     Route::get('/qr-code', [HomeController::class, 'generateQRCode'])->name('qr-code');

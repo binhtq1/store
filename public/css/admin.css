@@ -1,0 +1,39 @@
+.site-layout .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.site-layout .btn-toggle-sidebar {
+  width: 40px;
+  height: 40px;
+  padding: 10px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.site-layout .btn-toggle-sidebar:hover {
+  color: #1890ff;
+}
+.site-layout__container {
+  padding-top: 50px;
+  height: 100vh;
+  overflow: auto;
+}
+.site-layout__header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px !important;
+  padding: 0 !important;
+  line-height: 50px !important;
+  background: #fff !important;
+}
+.site-layout__main-content {
+  padding: 15px;
+  margin: 15px;
+  background: #fff !important;
+}
+
+.site-sidebar {
+  height: 100vh;
+}
