@@ -82,4 +82,11 @@
       0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     ),
   ),
+  'prettus/l5-repository' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Prettus\\Repository\\Providers\\RepositoryServiceProvider',
+    ),
+  ),
 );
